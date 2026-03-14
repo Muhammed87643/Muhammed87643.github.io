@@ -393,9 +393,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  homeButton.addEventListener('click', () => {
-    switchTheme('assets/background.mp4', backgroundMusic, 'hacker-theme');
-  });
+  //homeButton.addEventListener('click', () => {
+  //  switchTheme('assets/background.mp4', backgroundMusic, 'hacker-theme');
+  //});
   homeButton.addEventListener('touchstart', (e) => {
     e.preventDefault();
     switchTheme('assets/background.mp4', backgroundMusic, 'hacker-theme');
