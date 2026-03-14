@@ -13,6 +13,10 @@
   cursor: none;
 }
 
+input {
+  cursor: none;
+}
+
 body {
   font-family: 'Space Mono', monospace;
   background: var(--background-dark);
