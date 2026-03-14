@@ -13,10 +13,6 @@
   cursor: none;
 }
 
-input {
-  cursor: none;
-}
-
 body {
   font-family: 'Space Mono', monospace;
   background: var(--background-dark);
@@ -26,6 +22,26 @@ body {
   perspective: 1000px;
 }
 
+input[type="range"] {
+  cursor: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  cursor: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  cursor: none;
+}
+
+/* Firefox */
+input[type="range"]::-moz-range-thumb {
+  cursor: none;
+}
+
+input[type="range"]::-moz-range-track {
+  cursor: none;
+}
 
 .custom-cursor {
   position: fixed;
