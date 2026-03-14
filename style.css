@@ -10,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   transition: all 0.3s ease;
-  cursor: none;
+  cursor: none !important;
 }
 
 body {
@@ -20,27 +20,6 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 1000px;
-}
-
-input[type="range"] {
-  cursor: none;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-  cursor: none;
-}
-
-input[type="range"]::-webkit-slider-runnable-track {
-  cursor: none;
-}
-
-/* Firefox */
-input[type="range"]::-moz-range-thumb {
-  cursor: none;
-}
-
-input[type="range"]::-moz-range-track {
-  cursor: none;
 }
 
 .custom-cursor {
