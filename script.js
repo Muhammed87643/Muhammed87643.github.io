@@ -109,10 +109,6 @@ document.addEventListener('DOMContentLoaded', () => {
     startText.textContent = startTextContent + (startCursorVisible ? '|' : ' ');
   }, 500);
 
-  document.body.addEventListener("click", () => {
-    document.body.requestPointerLock();
-  });
-
   startScreen.addEventListener('click', () => {
     startScreen.classList.add('hidden');
     backgroundMusic.muted = false;
