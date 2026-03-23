@@ -79,6 +79,13 @@ body.car-theme {
   --cursor-hue: 60deg; 
 }
 
+input[type="range"]::-webkit-slider-thumb {
+  cursor: none;
+}
+
+input[type="range"]::-moz-range-thumb {
+  cursor: none;
+}
 
 .video-background {
   transform: scale(1.02);
@@ -320,6 +327,7 @@ body.car-theme {
 
 .volume-icon {
   stroke: var(--primary-color);
+  cursor: none
 }
 
 .volume-icon:hover,
